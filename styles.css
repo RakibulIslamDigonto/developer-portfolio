@@ -86,11 +86,12 @@ nav a{
 
 .about-me{
     padding: 130px;
-    /* width: 1140px;
-    height: 550px; */
+    width: 1140px;
+    height: 550px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 230px 0px;
+    margin: 0px auto; 
+
 }
 .section-title{
     color: #181818;
@@ -104,4 +105,12 @@ nav a{
     text-align: center;
     font-size: 18px;
     display: flex;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-info{
+    text-align: center;
 }

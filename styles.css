@@ -2,11 +2,12 @@ body{
     font-family: 'lato', sans-serif;
     font-family: 'open sans', sans-serif;
 }
-
+/* navbar */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-title{
     color: #181818;
@@ -39,4 +40,21 @@ nav li {
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* body background */
+.header{
+    background: #FFF8F3;
+   
+}
+/* banner style */
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    width: 500px;
+    height: 676px;
+    flex-shrink: 0;
 }

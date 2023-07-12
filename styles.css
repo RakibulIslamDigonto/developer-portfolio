@@ -90,7 +90,7 @@ nav a{
     height: 550px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 0px auto; 
+    margin: 130px auto; 
 
 }
 .section-title{
@@ -113,4 +113,13 @@ nav a{
 }
 .about-info{
     text-align: center;
+}
+.what-i-do-disc{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 909px;
+    text-align: center;
+    padding: 30px 300px;
 }

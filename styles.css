@@ -1,6 +1,8 @@
 body{
     font-family: 'lato', sans-serif;
     font-family: 'open sans', sans-serif;
+    padding: 0;
+    margin: ;
 }
 /* navbar */
 nav{
@@ -189,26 +191,38 @@ nav a{
     margin-top: 50px;
 }
 .footer-all{
-    width: 1600px;
-    height: 780px;
     background: #FFF8F3;
+    display: flex;
+    gap: 117px;
+    padding: 130px 200px;
+    margin-top: 100px;
+    justify-content: space-between;
 }
 .footer-item{
     color: #474747;
     font-size: 16px;
 }
-.footer-desc{
 
-}
-.footer-all{ 
-    display: flex;
-    gap: 117px;
-    padding: 130px 200px;
-    margin-top: 100px;
-}
+
 .social-icon{
     width: 24px;
     height: 24px;
     display: flex;
     gap: 24px 30px;
+}
+.footer-item{
+    width: 50%;
+}
+/* form */
+.contract-form input[type="text"], 
+.contract-form input[type="email"], 
+.contract-form textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 30px;
+    color: #757575;
+    width: 100%;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
 }

@@ -156,3 +156,35 @@ nav a{
     color: #474747;
     font-size: 30px;
 }
+
+/* resume */
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item hr{
+    margin: 30PX;
+}
+.resume-institute{
+    color:  #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+
+}
+.resume-desc{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+.down-CV{
+    text-align: center;
+    margin-top: 50px;
+}
